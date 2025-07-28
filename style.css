@@ -97,7 +97,7 @@ header h1 {
   height: 600px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto 220px;
+  margin: 0 auto 120px;
 }
 
 #welcome-to-party h1 {
@@ -138,7 +138,14 @@ header h1 {
 }
 
 #event-Details {
-  margin-bottom: 220px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  margin-bottom: 120px;
+  padding: 100px 0;
 }
 
 #event-Details h3 span {
