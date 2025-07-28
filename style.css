@@ -92,7 +92,7 @@ header h1 {
   height: 600px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto 120px;
+  margin: 0 auto 220px;
 }
 
 #welcome-to-party h1 {
@@ -125,9 +125,172 @@ header h1 {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  margin: 0 0 126px 126px;
+  margin-bottom: 126px;
 }
 
 #welcome-to-party a:hover {
   color: #f00;
+}
+
+#event-Details {
+  margin-bottom: 220px;
+}
+
+#event-Details h3 span {
+  color: #f00;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+}
+
+#event-Details h3 {
+  color: #070211;
+  font-family: Inter;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+#event-Details a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 48px;
+}
+#event-Details button {
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  background: #f00;
+}
+
+#event-Details button:hover {
+  background: #d40000;
+  cursor: pointer;
+}
+
+/* New Best Offer*/
+
+#new-best-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.coming-soon {
+  flex: 1;
+  margin-right: 70px;
+}
+
+.coming-soon h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.coming-soon h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.coming-soon p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.nbo-image {
+  flex: 1;
+}
+.nbo-image img {
+  width: 100%;
+}
+
+.about-nbo {
+  flex: 1;
+  margin-left: 118px;
+}
+.about-nbo h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.about-nbo p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 40px;
+}
+
+/* holiday sale */
+
+.holiday-sale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1068px;
+  margin: 0 auto 120px;
+}
+
+.holiday-sale h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.holiday-sale h1 span {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-sale h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.holiday-sale p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+.holiday-sale-image {
+  display: flex;
+  background-image: url(images/Rectangle\ 2.png), url(images/Discount.png);
+  background-repeat: no-repeat;
+  background-size: 1640px 229px, 300px;
+  width: 1640px;
+  height: 600px;
+  background-position: bottom left, 1250px 50px;
+  margin-bottom: 120px;
 }
